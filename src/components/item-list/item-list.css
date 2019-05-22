@@ -1,0 +1,28 @@
+.list {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.list__item {
+    margin: 9px 0;
+    padding: 3px 0;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.list__item:hover,
+.list__item:active {
+    color: #ba4a00;
+    transform: translate(20px, 0) scale(1.05);
+}

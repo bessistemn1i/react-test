@@ -1,0 +1,27 @@
+.err-message {
+    width: 100%;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+    background-color: #200e0e;
+    border-radius: 7px;
+}
+
+.err-title {
+    color: #8b0000;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.err-subtitle {
+    color: #b49f9f;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+}
