@@ -7,9 +7,9 @@ import ItemDetails, { Record } from '../item-details/item-details';
 const renderPlanet = (WrappedComponent) => {
     return (props) => {
         return <WrappedComponent {...props}>
-            <Record field="name" label="Name"/>
-            <Record field="period" label="Period"/>
-            <Record field="population" label="Population"/>
+            <Record field="name" label="Название"/>
+            <Record field="period" label="Период обращения"/>
+            <Record field="population" label="Население"/>
         </WrappedComponent>
     }
 }
@@ -17,9 +17,9 @@ const renderPlanet = (WrappedComponent) => {
 const renderStarship = (WrappedComponent) => {
     return (props) => {
         return <WrappedComponent {...props}>
-            <Record field="name" label="Name"/>
-            <Record field="model" label="Model"/>
-            <Record field="crew" label="Crew"/>
+            <Record field="name" label="Название"/>
+            <Record field="model" label="Модель"/>
+            <Record field="crew" label="Состав команды"/>
         </WrappedComponent>
     }
 }
@@ -27,9 +27,9 @@ const renderStarship = (WrappedComponent) => {
 const renderPerson = (WrappedComponent) => {
     return (props) => {
         return <WrappedComponent {...props}>
-            <Record field="name" label="Name"/>
-            <Record field="birthYear" label="Birth Year"/>
-            <Record field="gender" label="Gender"/>
+            <Record field="name" label="Имя"/>
+            <Record field="birthYear" label="Год рождения"/>
+            <Record field="gender" label="Пол"/>
         </WrappedComponent>
     }
 }

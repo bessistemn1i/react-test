@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom';
 const SecretPage = ({isLoggedIn}) => {
     if(isLoggedIn) {
         return (
-            <div>
+            <div className="item-wrap">
                 <h1>This is a secret info</h1>
             </div>
         )

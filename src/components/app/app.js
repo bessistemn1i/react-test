@@ -24,13 +24,13 @@ export default class App extends Component {
         const swapiService = new SwapiService();
         const { isLoggedIn } = this.state;
         return(
-            <div>
+            <div className="app-wrap">
                 <SwapiServiceProvider value={swapiService}>
                     <Router>
                         <Header/>
                         <RandomPlanet/>
                         <Switch>
-                            <Route path="/" render = {() => <h2>Welcome to my app</h2>}
+                            <Route path="/" render = {() => <h2 className="app-title">Добро пожаловать в тестовое приложение на React</h2>}
                                 exact
                             />
                             <Route path="/people/:id?" component={PeoplePage}/>

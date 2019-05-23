@@ -45,7 +45,7 @@ const DetailWithData = (View) => {
             const {item, loading, currentImage} = this.state;
             if(item == null) {
                 return(
-                    <span className="default-message">Please select your testing person</span>
+                    <span className="default-message">Пожалуйста, выберете из списка!</span>
                 )
             }
             if(loading) {

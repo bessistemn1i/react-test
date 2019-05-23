@@ -6,7 +6,7 @@ const LoginPage = ({onLogin, isLoggedIn}) => {
         return <Redirect to="/"/>
     }
     return (
-        <div>
+        <div className="item-wrap">
             <p>Login to see secret page</p>
             <button onClick={onLogin}>LogIn</button>
         </div>

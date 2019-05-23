@@ -84,13 +84,13 @@ const PlanetView = ({planet}) => {
                 </div>
             <div className="random__description">
                     <h3 className="title">
-                        Title: <span>{name}</span>
+                        Название: <span>{name}</span>
                     </h3>
 
                     <ul className="descr__list">
-                        <li className="descr__item">Population: <span>{population}</span></li>
-                        <li className="descr__item">Period: <span>{period}</span></li>
-                        <li className="descr__item">Diameter: <span>{diameter}</span></li>
+                        <li className="descr__item">Население: <span>{population}</span></li>
+                        <li className="descr__item">Период обращения: <span>{period}</span></li>
+                        <li className="descr__item">Диаметр: <span>{diameter}</span></li>
                     </ul>
                 </div>
         </React.Fragment>

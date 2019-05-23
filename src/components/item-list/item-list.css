@@ -1,12 +1,16 @@
 .list {
     width: 100%;
-    max-width: 200px;
+    max-width: 180px;
     margin-top: 0;
     margin-right: auto;
+    margin-right: 20px;
     margin-bottom: 40px;
     padding: 0;
+    padding-left: 20px;
     list-style: none;
     text-align: center;
+
+    background-color: #d8e4e6;
 }
 
 .list__item {
